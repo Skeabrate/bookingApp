@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 10vw 0px;
+}
+
+.headerImage{
+    position: absolute;
+    top: -2.5%;
+    left: -2.5%;
+    right: -2.5%;
+    bottom: -2.5%;
+    z-index: 1;
+    background: url(../../assets/images/header.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

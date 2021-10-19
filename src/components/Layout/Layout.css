@@ -1,0 +1,11 @@
+.bodyTheme-danger{
+    background-color: #232323;
+}
+
+.bodyTheme-primary{
+    background-color: white;
+}
+
+.containerHeight{
+    min-height: calc(100vh - (20vw + 48px));
+}

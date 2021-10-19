@@ -1,0 +1,32 @@
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+}
+
+.menuItemActive{
+    padding-left: 3px;
+    border-left: 15px solid orange;
+}
+.menuItem a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menuItem {
+    transition: all 0.2s 0.1s ease-in-out;
+}
+
+.menuItem:hover{
+    transform: translateY(-1px) scale(1.1);
+}
+
+.menuContainer{
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin: 10px 0;
+}

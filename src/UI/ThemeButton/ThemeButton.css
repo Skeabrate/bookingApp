@@ -1,0 +1,36 @@
+.btnWrapper{
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 70px;
+   height: 38px;
+   border-radius: 50px;
+   z-index: 2;
+   background-color: #232323;
+   transition: box-shadow 0.2s 0s ease-in-out;
+}
+.btnInner{
+   position: absolute;
+   left: 3px;
+   width: 32px;
+   height: 32px;
+   background-color: transparent;
+   border-radius: 50%;
+   transition: transform 0.2s 0s ease-in-out;
+   background-color: rgb(243, 243, 243);
+   border: none;
+}
+
+.btnInner-active{
+   transform: translateX(32px);
+}
+
+.btnWrapper:active{
+   box-shadow: 0 0 20px rgb(0, 183, 255);
+}
+
+
+.imgBox{
+   width: 24px;
+}
