@@ -1,2 +1,2 @@
 # bookingApp
-App based on course https://tworcastron.pl/kursy/
+App based on course from: https://tworcastron.pl/kursy/
