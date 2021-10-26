@@ -24,7 +24,7 @@ function Menu() {
         <div className={`${style.menuContainer} container card-body`}>
             <ul className={`${style.menu}`}>
                 <li className={`${style.menuItem}`}>
-                    <NavLink onClick={reladPage} activeClassName={style.menuItemActive} exact to="/" className={`text-${theme.color}`}>
+                    <NavLink activeClassName={style.menuItemActive} exact to="/" className={`text-${theme.color}`}>
                         Home
                     </NavLink>
                 </li>
